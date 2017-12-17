@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'settings.html',
 })
 export class SettingsPage {
-
+    settingsTab: string = 'nominal';
+    
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+      
   }
 
   ionViewDidLoad() {

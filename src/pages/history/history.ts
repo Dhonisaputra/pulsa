@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'history.html',
 })
 export class HistoryPage {
-
+    filtering: string = 'daily';
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -23,3 +23,4 @@ export class HistoryPage {
   }
 
 }
+

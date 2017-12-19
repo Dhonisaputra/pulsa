@@ -19,4 +19,6 @@ export class CStoragesComponent {
     this.text = 'Hello World';
   }
 
+  
+
 }
